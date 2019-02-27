@@ -14,17 +14,21 @@ Install
 
 Prepare Data
 ----------------
+```
   mkdir -p datasets/coco
   ln -s /path_to_coco_dataset/annotations datasets/coco/annotations
   ln -s /path_to_coco_dataset/train2014 datasets/coco/train2014
   ln -s /path_to_coco_dataset/test2014 datasets/coco/test2014
   ln -s /path_to_coco_dataset/val2014 datasets/coco/val2014
+```
 
 
 Pretrained Models
 ---------------
+```
   mkdir pretrained_models
   The pretrained models will be downloaded when running the program or you can download from this and put pretrained_models dir
+```
 
 
 Running
@@ -52,11 +56,13 @@ Results
 
 Citations
 ---------------
+If you find CCNet useful in your research, please consider citing:
+```
 @inproceedings{huang2019msrcnn,
-author = {Huang, Zhaojin and Huang, Lichao and Gong, Yongchao and Huang, Chang and Wang, Xinggang},
-title = {{Mask Scoring R-CNN}},
-booktitle = {CVPR},
-year = {2019},
+    author = {Huang, Zhaojin and Huang, Lichao and Gong, Yongchao and Huang, Chang and Wang, Xinggang},
+    title = {{Mask Scoring R-CNN}},
+    booktitle = {CVPR},
+    year = {2019},
 }   
-
+```
 
