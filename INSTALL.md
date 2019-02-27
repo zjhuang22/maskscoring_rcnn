@@ -41,7 +41,7 @@ git clone https://github.com/cocodataset/cocoapi.git
 cd cocoapi/PythonAPI
 python setup.py build_ext install
 
-# install PyTorch Detection
+# install PyTorch maskscoring_rcnn
 cd ~/github
 git clone https://github.com/zjhuang22/maskscoring_rcnn.git
 cd maskscoring_rcnn
