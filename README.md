@@ -7,9 +7,25 @@ Network
 ![alt text](demo/network.png)
 
 
-Preparing
+Install
 -----------------
-  Preparing follows [MASKRCNN_README.md] (MASKRCNN_README.md)
+  Check [INSTALL.md](INSTALL.md) for installation instructions.
+
+
+Prepare Data
+----------------
+  mkdir -p datasets/coco
+  ln -s /path_to_coco_dataset/annotations datasets/coco/annotations
+  ln -s /path_to_coco_dataset/train2014 datasets/coco/train2014
+  ln -s /path_to_coco_dataset/test2014 datasets/coco/test2014
+  ln -s /path_to_coco_dataset/val2014 datasets/coco/val2014
+
+
+Pretrained Models
+---------------
+  mkdir pretrained_models
+  The pretrained models will be downloaded when running the program or you can download from this and put pretrained_models dir
+
 
 Running
 ----------------
@@ -24,7 +40,6 @@ Running
 ```
 
 
-   
 Results
 ------------
 | NetWork  | Method | mAP(mask) | mAP(det)  |
@@ -33,4 +48,15 @@ Results
 | ResNet-50 FPN | MS R-CNN | 35.6 | 37.9 |
 | ResNet-101 FPN | Mask R-CNN | 36.1 | 40.1 |
 | ResNet-101 FPN | MS R-CNN | 37.4 | 40.1 |
+
+
+Citations
+---------------
+@inproceedings{huang2019msrcnn,
+author = {Huang, Zhaojin and Huang, Lichao and Gong, Yongchao and Huang, Chang and Wang, Xinggang},
+title = {{Mask Scoring R-CNN}},
+booktitle = {CVPR},
+year = {2019},
+}   
+
 
