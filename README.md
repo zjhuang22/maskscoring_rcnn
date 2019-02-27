@@ -62,7 +62,7 @@ Results
 Visualization
 -------------
 ![alt text](demo/demo.png)
-Demonstrative cases of instance segmentation in which bounding box has a high overlap with ground truth and a high classification score while the mask is not good enough. The left four images show good detection results with high classification scores but low mask scores. Our method aims at solving this problem. The rightmost image shows the case of a good mask with a high classification score. Our method will retrain the high score. As can be seen, scores predicted by our model can better interpret the actual mask quality.
+The left four images show good detection results with high classification scores but low mask scores. Our method aims at solving this problem. The rightmost image shows the case of a good mask with a high classification score. Our method will retrain the high score. As can be seen, scores predicted by our model can better interpret the actual mask quality.
 
 Citations
 ---------------
