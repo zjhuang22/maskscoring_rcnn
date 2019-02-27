@@ -6,6 +6,9 @@ This project is based on [maskrcnn-benchmark](https://github.com/facebookresearc
 
 Introduction
 -----------------
+Mask Scoring R-CNN contains a network block to learn the quality of the predicted instance masks. The proposed network block takes the instance feature and the corresponding predicted mask together to regress the mask IoU. The mask scoring strategy calibrates the misalignment between mask quality and mask score, and improves instance segmentation performance by prioritizing more accurate mask predictions during COCO AP evaluation.  
+
+By extensive evaluations on the COCO dataset, Mask Scoring R-CNN brings consistent and noticeable gain with different models and different frameworks.
 ![alt text](demo/network.png)
 
 
