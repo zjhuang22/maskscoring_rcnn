@@ -61,7 +61,7 @@ Results
 
 Visualization
 -------------
-![alt text](demo/demo.pdf)
+![alt text](demo/demo.png)
 
 
 Citations
