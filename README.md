@@ -66,7 +66,7 @@ The left four images show good detection results with high classification scores
 
 Acknowledgment
 -------------
-The work was mainly done during an internship at [Horizon Robotics](http://en.horizon.ai/)
+The work was done during an internship at [Horizon Robotics](http://en.horizon.ai/)
 
 Citations
 ---------------
