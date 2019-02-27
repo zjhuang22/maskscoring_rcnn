@@ -1,6 +1,6 @@
 Mask Scoring R-CNN (MS R-CNN)
 -----------------
-This project is based on facebook [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
+This project is based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
 
 Network
 -----------------
@@ -28,7 +28,6 @@ Pretrained Models
 ```
   mkdir pretrained_models
   The pretrained models will be downloaded when running the program.
-  (Or you can download from [this](https://pan.baidu.com/s/1Ac3_OqsWYtnM52oLkqCePw) and put in the pretrained_models dir)
 ```
 
 
