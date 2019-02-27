@@ -1,6 +1,7 @@
-Mask Scoring R-CNN (MS R-CNN)
+Mask Scoring R-CNN 
 -----------------
-By Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, Xinggang Wang.
+Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, Xinggang Wang. 
+Accepted in **CVPR 2019**
 
 This project is based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
 
@@ -31,18 +32,18 @@ Pretrained Models
 ---------------
 ```
   mkdir pretrained_models
-  #The pretrained models will be downloaded when running the program.
+  The pretrained models will be downloaded when running the program.
 ```
 
 
 Running
 ----------------
-Single GPU Training
+
 ```
+  Single GPU Training
   python tools/train_net.py --config-file "configs/e2e_ms_rcnn_R_50_FPN_1x.yaml" SOLVER.IMS_PER_BATCH 2 SOLVER.BASE_LR 0.0025 SOLVER.MAX_ITER 720000 SOLVER.STEPS "(480000, 640000)" TEST.IMS_PER_BATCH 1
-```
-Multi-GPU Training
-```
+  
+  Multi-GPU Training
   export NGPUS=8
   python -m torch.distributed.launch --nproc_per_node=$NGPUS tools/train_net.py --config-file "configs/e2e_ms_rcnn_R_50_FPN_1x.yaml" 
 ```
@@ -63,10 +64,6 @@ Visualization
 -------------
 ![alt text](demo/demo.png)
 The left four images show good detection results with high classification scores but low mask quality. Our method aims at solving this problem. The rightmost image shows the case of a good mask with a high classification score. Our method will retrain the high score. As can be seen, scores predicted by our model can better interpret the actual mask quality.
-
-Acknowledgment
--------------
-The work was mainly done during an internship at [Horizon Robotics](http://en.horizon.ai/)
 
 Citations
 ---------------
