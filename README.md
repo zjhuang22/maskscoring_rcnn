@@ -56,7 +56,7 @@ Results
 
 Citations
 ---------------
-If you find CCNet useful in your research, please consider citing:
+If you find MS R-CNN useful in your research, please consider citing:
 ```
 @inproceedings{huang2019msrcnn,
     author = {Huang, Zhaojin and Huang, Lichao and Gong, Yongchao and Huang, Chang and Wang, Xinggang},
