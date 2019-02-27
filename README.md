@@ -80,3 +80,7 @@ If you find MS R-CNN useful in your research, please consider citing:
 }   
 ```
 
+Thanks to the Third Party Libs
+---------------  
+[maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)   
+[Pytorch](https://github.com/pytorch/pytorch)   
