@@ -7,7 +7,6 @@
 - yacs
 - matplotlib
 - GCC >= 4.9
-- (optional) OpenCV for the webcam demo
 
 
 ### Option 1: Step-by-step installation
