@@ -1,8 +1,9 @@
 Mask Scoring R-CNN (MS R-CNN)
 -----------------
+By Zhaojin Huang and Lichao Huang and Yongchao Gong and Chang Huang and Xinggang Wang.
 This project is based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
 
-Network
+Introduction
 -----------------
 ![alt text](demo/network.png)
 
@@ -59,7 +60,7 @@ Citations
 If you find MS R-CNN useful in your research, please consider citing:
 ```
 @inproceedings{huang2019msrcnn,
-    author = {Huang, Zhaojin and Huang, Lichao and Gong, Yongchao and Huang, Chang and Wang, Xinggang},
+    author = {Zhaojin Huang and Lichao Huang and Yongchao Gong and Chang Huang and Xinggang Wang},
     title = {{Mask Scoring R-CNN}},
     booktitle = {CVPR},
     year = {2019},
