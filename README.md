@@ -80,6 +80,10 @@ If you find MS R-CNN useful in your research, please consider citing:
 }   
 ```
 
+License
+---------------
+maskscoring_rcnn is released under the MIT license. See [LICENSE](LICENSE) for additional details.
+
 Thanks to the Third Party Libs
 ---------------  
 [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)   
