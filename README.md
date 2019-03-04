@@ -2,6 +2,8 @@ Mask Scoring R-CNN (MS R-CNN)
 -----------------
 By [Zhaojin Huang](https://github.com/zjhuang22), [Lichao Huang](https://scholar.google.com/citations?user=F2e_jZMAAAAJ&hl=en), [Yongchao Gong](https://dblp.org/pers/hd/g/Gong:Yongchao), [Chang Huang](https://scholar.google.com/citations?user=IyyEKyIAAAAJ&hl=zh-CN), [Xinggang Wang](http://www.xinggangw.info/index.htm).
 
+CVPR 2019 Oral Paper
+
 This project is based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
 
 Introduction
