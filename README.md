@@ -35,6 +35,9 @@ Pretrained Models
   mkdir pretrained_models
   #The pretrained models will be downloaded when running the program.
 ```
+My training log and pre-trained models can be found here [link](https://1drv.ms/f/s!AntfaTaAXHobhkCKfcPPQQfOfFAB) or [link](https://pan.baidu.com/s/192lRQozksu5XwpU9EO5neg)(pw:xm3f).
+
+
 
 
 Running
