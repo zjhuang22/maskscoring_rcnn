@@ -179,7 +179,7 @@ class MaskRCNNLossComputation(object):
             value_eps = 1e-10 * torch.ones(mask_targets.shape[0], device=labels.device)
             mask_ratios = torch.max(mask_ratios, value_eps)
             pred_masks = mask_logits[positive_inds, labels_pos]
-            pred_masks[:] = pred_masks > 0.5
+            pred_masks[:] = pred_masks > 0
             mask_targets_full_area = mask_targets.sum(dim=[1,2]) / mask_ratios
             mask_ovr = pred_masks * mask_targets
             mask_ovr_area = mask_ovr.sum(dim=[1,2])
